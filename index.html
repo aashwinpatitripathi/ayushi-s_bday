@@ -173,7 +173,7 @@ style="width: 80%; height: 100px; border-radius: 15px; padding: 10px; border: 2p
 <script>
 
 // 🔒 CHANGE YEAR IF NEEDED (March = month 2)
-const unlockDate = new Date(2026, 2, 6, 0, 0, 0).getTime();
+const unlockDate = new Date(2026-03-06T00:00:00+05:30).getTime();
 
 const timer = setInterval(function() {
     const now = new Date().getTime();
@@ -284,3 +284,4 @@ setInterval(createHeart, 400);
 
 </body>
 </html>
+
